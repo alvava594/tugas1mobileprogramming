@@ -1,0 +1,24 @@
+<resources>
+    <string name="app_name">Google Play Layout</string>
+    <string name="google_play">Google Play Store</string>
+    <string name="whatsapp">WhatsApp</string>
+    <string name="apps">Apps</string>
+    <string name="games">Games</string>
+    <string name="movies_tv">Movies Tv</string>
+    <string name="musik">Musik</string>
+    <string name="books">Books</string>
+    <string name="news">News</string>
+    <string name="popular_apps_game">Popular Apps + Game</string>
+    <string name="more">MORE</string>
+    <string name="cc">Criminal Case</string>
+    <string name="capcut">Capcut</string>
+    <string name="asphalt8">Asphalt 8</string>
+    <string name="mss">Manager Supermarket SIM</string>
+    <string name="new_game">New + Game</string>
+    <string name="mc">Minecraft</string>
+    <string name="pvz2">Plants VS Zombies 2</string>
+    <string name="sl">Solo Leveling: Arise</string>
+    <string name="ss">Subway Surfers</string>
+    <string name="ww">Wuthering Waves</string>
+    <string name="sb">Squad Busters</string>
+</resources>

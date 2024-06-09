@@ -1,0 +1,316 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:background="@android:color/darker_gray">
+
+        <TextView
+            android:id="@+id/tv_name"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerInParent="true"
+            android:layout_marginStart="10dp"
+            android:layout_toEndOf="@id/image_menu"
+            android:text="@string/google_play"
+            android:textSize="20sp" />
+
+        <ImageView
+            android:id="@+id/image_menu"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="true"
+            android:layout_marginStart="20dp"
+            android:contentDescription="@string/google_play"
+            android:src="@drawable/ic_menu" />
+
+
+    </RelativeLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:weightSum="2">
+
+        <TextView
+            style="@style/AppItemButtonView"
+            android:background="@drawable/custom_background_text_view_1"
+            android:text="@string/apps" />
+
+        <TextView
+            style="@style/AppItemButtonView"
+            android:background="@drawable/custom_background_text_view_2"
+            android:text="@string/games" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:weightSum="2">
+
+        <TextView
+            style="@style/AppItemButtonView"
+            android:background="@drawable/custom_background_text_view_3"
+            android:text="@string/movies_tv" />
+
+        <TextView
+            style="@style/AppItemButtonView"
+            android:background="@drawable/custom_background_text_view_4"
+            android:text="@string/musik" />
+
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:weightSum="2">
+
+        <TextView
+            style="@style/AppItemButtonView"
+            android:background="@drawable/custome_background_text_view_5"
+            android:text="@string/books" />
+
+        <TextView
+            style="@style/AppItemButtonView"
+            android:background="@drawable/custome_background_text_view_7"
+            android:text="@string/news" />
+
+    </LinearLayout>
+
+    <RelativeLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+
+        <TextView
+            style="@style/AppItemTitleView"
+            android:text="@string/popular_apps_game" />
+
+        <TextView style="@style/AppItemMoreView" />
+
+    </RelativeLayout>
+
+
+    <HorizontalScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="150dp"
+            android:layout_marginTop="10dp"
+            android:orientation="horizontal">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="150dp"
+                android:gravity="center"
+                android:orientation="vertical"
+                tools:ignore="UseCompoundDrawables">
+
+                <ImageView
+                    style="@style/AppItem"
+                    android:contentDescription="@string/whatsapp"
+                    android:src="@drawable/whatsapp" />
+
+                <TextView
+                    style="@style/AppItemTextView"
+                    android:text="@string/whatsapp" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="150dp"
+                android:gravity="center"
+                android:orientation="vertical"
+                tools:ignore="UseCompoundDrawables">
+
+                <ImageView
+                    style="@style/AppItem"
+                    android:contentDescription="@string/capcut"
+                    android:src="@drawable/capcut" />
+
+                <TextView
+                    style="@style/AppItemTextView"
+                    android:text="@string/capcut" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="150dp"
+                android:gravity="center"
+                android:orientation="vertical"
+                tools:ignore="UseCompoundDrawables">
+
+                <ImageView
+                    style="@style/AppItem"
+                    android:contentDescription="@string/asphalt8"
+                    android:src="@drawable/asphalt8" />
+
+                <TextView
+                    style="@style/AppItemTextView"
+                    android:text="@string/asphalt8" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="150dp"
+                android:gravity="center"
+                android:orientation="vertical"
+                tools:ignore="UseCompoundDrawables">
+
+                <ImageView
+                    style="@style/AppItem"
+                    android:contentDescription="@string/cc"
+                    android:src="@drawable/criminalcase" />
+
+                <TextView
+                    style="@style/AppItemTextView"
+                    android:text="@string/cc" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="150dp"
+                android:gravity="center"
+                android:orientation="vertical"
+                tools:ignore="UseCompoundDrawables">
+
+                <ImageView
+                    style="@style/AppItem"
+                    android:contentDescription="@string/pvz2"
+                    android:src="@drawable/pvz2" />
+
+                <TextView
+                    style="@style/AppItemTextView"
+                    android:text="@string/pvz2" />
+            </LinearLayout>
+
+        </LinearLayout>
+
+    </HorizontalScrollView>
+
+    <RelativeLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+
+        <TextView
+            style="@style/AppItemTitleView"
+            android:text="@string/new_game" />
+
+
+        <TextView style="@style/AppItemMoreView" />
+
+    </RelativeLayout>
+
+    <HorizontalScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="150dp"
+            android:layout_marginTop="10dp"
+            android:orientation="horizontal">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="150dp"
+                android:gravity="center"
+                android:orientation="vertical"
+                tools:ignore="UseCompoundDrawables">
+
+                <ImageView
+                    style="@style/AppItem"
+                    android:contentDescription="@string/mss"
+                    android:src="@drawable/managersupermarketsim" />
+
+                <TextView
+                    style="@style/AppItemTextView"
+                    android:text="@string/mss" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="150dp"
+                android:gravity="center"
+                android:orientation="vertical"
+                tools:ignore="UseCompoundDrawables">
+
+                <ImageView
+                    style="@style/AppItem"
+                    android:contentDescription="@string/mc"
+                    android:src="@drawable/minecraft" />
+
+                <TextView
+                    style="@style/AppItemTextView"
+                    android:text="@string/mc" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="150dp"
+                android:gravity="center"
+                android:orientation="vertical"
+                tools:ignore="UseCompoundDrawables">
+
+                <ImageView
+                    style="@style/AppItem"
+                    android:contentDescription="@string/sl"
+                    android:src="@drawable/sololeveling" />
+
+                <TextView
+                    style="@style/AppItemTextView"
+                    android:text="@string/sl" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="150dp"
+                android:gravity="center"
+                android:orientation="vertical"
+                tools:ignore="UseCompoundDrawables">
+
+                <ImageView
+                    style="@style/AppItem"
+                    android:contentDescription="@string/sb"
+                    android:src="@drawable/squadbusters" />
+
+                <TextView
+                    style="@style/AppItemTextView"
+                    android:text="@string/sb" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="150dp"
+                android:gravity="center"
+                android:orientation="vertical"
+                tools:ignore="UseCompoundDrawables">
+
+                <ImageView
+                    style="@style/AppItem"
+                    android:src="@drawable/wutheringwaves"
+                    android:contentDescription="@string/ww" />
+
+                <TextView
+                    style="@style/AppItemTextView"
+                    android:text="@string/ww" />
+            </LinearLayout>
+
+        </LinearLayout>
+
+    </HorizontalScrollView>
+
+</LinearLayout>
